@@ -1,0 +1,3 @@
+[2025-01-19 16:19:51] INFO: Server is running on port 3000
+[2025-01-19 16:19:51] INFO: RabbitMQ connected and configured: Exchange=defaultExchange, Queue=defaultQueue
+[2025-01-19 16:19:51] INFO: RabbitMQ successfully connected and initialized
