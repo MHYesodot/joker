@@ -1,3 +1,59 @@
-[2025-01-19 16:19:51] INFO: Server is running on port 3000
-[2025-01-19 16:19:51] INFO: RabbitMQ connected and configured: Exchange=defaultExchange, Queue=defaultQueue
-[2025-01-19 16:19:51] INFO: RabbitMQ successfully connected and initialized
+[2025-01-19 17:56:55] INFO: Server is running on port 3000
+[2025-01-19 17:56:55] INFO: Connecting to RabbitMQ at amqp://localhost...
+[2025-01-19 17:56:55] INFO: RabbitMQ connection established.
+[2025-01-19 17:56:55] INFO: Asserting exchange "joker"...
+[2025-01-19 17:56:55] INFO: Asserting exchange "prompt"...
+[2025-01-19 17:56:55] INFO: Asserting queue "jokesOnYou"...
+[2025-01-19 17:56:55] INFO: Queue "jokesOnYou" successfully bound to exchange "joker" with routing key "jokesOnYou"
+[2025-01-19 17:56:55] INFO: RabbitMQ successfully connected and initialized
+[2025-01-19 17:58:39] INFO: Message published to exchange "prompt" with routing key "Tell me a joke about apple.com": message
+[2025-01-19 17:58:39] INFO: Prompt successfully published to the queue: Tell me a joke about apple.com
+[2025-01-19 17:59:24] INFO: Message published to exchange "prompt" with routing key "Tell me a joke about apple.com": message
+[2025-01-19 17:59:24] INFO: Prompt successfully published to the queue: Tell me a joke about apple.com
+[2025-01-19 17:59:26] INFO: Message published to exchange "prompt" with routing key "Tell me a joke about apple.com": message
+[2025-01-19 17:59:26] INFO: Prompt successfully published to the queue: Tell me a joke about apple.com
+[2025-01-19 17:59:26] INFO: Message published to exchange "prompt" with routing key "Tell me a joke about apple.com": message
+[2025-01-19 17:59:26] INFO: Prompt successfully published to the queue: Tell me a joke about apple.com
+[2025-01-19 17:59:28] INFO: Message published to exchange "prompt" with routing key "Tell me a joke about apple.com": message
+[2025-01-19 17:59:28] INFO: Prompt successfully published to the queue: Tell me a joke about apple.com
+[2025-01-19 17:59:31] INFO: Message published to exchange "prompt" with routing key "Tell me a joke about apple.com": message
+[2025-01-19 17:59:31] INFO: Prompt successfully published to the queue: Tell me a joke about apple.com
+[2025-01-19 18:04:29] INFO: Server is running on port 3000
+[2025-01-19 18:04:29] INFO: Connecting to RabbitMQ at amqp://localhost...
+[2025-01-19 18:04:29] INFO: RabbitMQ connection established.
+[2025-01-19 18:04:29] INFO: Asserting exchange "joker"...
+[2025-01-19 18:04:29] INFO: Asserting exchange "prompt"...
+[2025-01-19 18:04:29] INFO: Asserting queue "jokesOnYou"...
+[2025-01-19 18:04:29] INFO: Queue "jokesOnYou" successfully bound to exchange "joker" with routing key "jokesOnYou"
+[2025-01-19 18:04:29] INFO: RabbitMQ successfully connected and initialized
+[2025-01-19 18:04:31] ERROR: Error in createPrompt: prompt is not defined
+[2025-01-19 18:04:41] INFO: Server is running on port 3000
+[2025-01-19 18:04:41] INFO: Connecting to RabbitMQ at amqp://localhost...
+[2025-01-19 18:04:41] INFO: RabbitMQ connection established.
+[2025-01-19 18:04:41] INFO: Asserting exchange "joker"...
+[2025-01-19 18:04:41] INFO: Asserting exchange "prompt"...
+[2025-01-19 18:04:41] INFO: Asserting queue "jokesOnYou"...
+[2025-01-19 18:04:41] INFO: Queue "jokesOnYou" successfully bound to exchange "joker" with routing key "jokesOnYou"
+[2025-01-19 18:04:41] INFO: RabbitMQ successfully connected and initialized
+[2025-01-19 18:04:52] ERROR: Error in createPrompt: prompt is not defined
+[2025-01-19 18:06:32] ERROR: Error in createPrompt: prompt is not defined
+[2025-01-19 18:06:44] ERROR: Error in createPrompt: prompt is not defined
+[2025-01-19 18:06:55] ERROR: Error in createPrompt: prompt is not defined
+[2025-01-19 18:06:57] ERROR: Error in createPrompt: prompt is not defined
+[2025-01-19 18:07:21] INFO: Server is running on port 3000
+[2025-01-19 18:07:21] INFO: Connecting to RabbitMQ at amqp://localhost...
+[2025-01-19 18:07:21] INFO: RabbitMQ connection established.
+[2025-01-19 18:07:21] INFO: Asserting exchange "joker"...
+[2025-01-19 18:07:21] INFO: Asserting exchange "prompt"...
+[2025-01-19 18:07:21] INFO: Asserting queue "jokesOnYou"...
+[2025-01-19 18:07:21] INFO: Queue "jokesOnYou" successfully bound to exchange "joker" with routing key "jokesOnYou"
+[2025-01-19 18:07:21] INFO: RabbitMQ successfully connected and initialized
+[2025-01-19 18:07:23] WARN: Prompt is required but missing in the request body
+[2025-01-19 18:07:23] ERROR: Error publishing to exchange "joker": The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined
+[2025-01-19 18:07:23] ERROR: Error in createPrompt: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined
+[2025-01-19 18:07:35] INFO: Message published to exchange "joker" with routing key "jokesOnYou": Tell me a joke about apple.com
+[2025-01-19 18:07:35] INFO: Prompt successfully published to the queue: Tell me a joke about apple.com
+[2025-01-19 18:08:18] INFO: Message published to exchange "joker" with routing key "jokesOnYou": Tell me a joke about apple.com
+[2025-01-19 18:08:18] INFO: Prompt successfully published to the queue: Tell me a joke about apple.com
+[2025-01-19 18:08:34] INFO: Message published to exchange "joker" with routing key "jokesOnYou": Tell me a joke about apple.com
+[2025-01-19 18:08:34] INFO: Prompt successfully published to the queue: Tell me a joke about apple.com

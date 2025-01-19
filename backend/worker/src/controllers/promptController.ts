@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
-import { publishToQueue } from '../services/prompt';
-import logger from '../utils/logger'; 
+import { publishToExchange } from '../services/prompt';
+import logger from '../utils/logger';
 
 export const createPrompt = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
@@ -12,8 +12,8 @@ export const createPrompt = async (req: Request, res: Response, next: NextFuncti
             res.status(400).json({ error: 'Prompt is required' });
         }
 
-        // Publish the prompt to the queue
-        await publishToQueue('prompt', prompt);
+        // Publish the prompt to the exchange
+        await publishToExchange('joker', 'jokesOnYou', prompt);
         logger.info(`Prompt successfully published to the queue: ${prompt}`);
 
         res.status(201).json({ message: 'Prompt created' });

@@ -1,0 +1,8 @@
+[2025-01-19 18:04:31] ERROR: Error in createPrompt: prompt is not defined
+[2025-01-19 18:04:52] ERROR: Error in createPrompt: prompt is not defined
+[2025-01-19 18:06:32] ERROR: Error in createPrompt: prompt is not defined
+[2025-01-19 18:06:44] ERROR: Error in createPrompt: prompt is not defined
+[2025-01-19 18:06:55] ERROR: Error in createPrompt: prompt is not defined
+[2025-01-19 18:06:57] ERROR: Error in createPrompt: prompt is not defined
+[2025-01-19 18:07:23] ERROR: Error publishing to exchange "joker": The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined
+[2025-01-19 18:07:23] ERROR: Error in createPrompt: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined
